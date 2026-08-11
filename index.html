@@ -1,0 +1,1887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Khan Abdul Kalam — Developer</title>
+
+    <meta
+        name="description"
+        content="Khan Abdul Kalam — IT Developer, Web Developer and Data-focused problem solver."
+    >
+
+    <meta
+        name="keywords"
+        content="Khan Abdul Kalam, Web Developer, IT Developer, React Developer, Full Stack Developer, Data Analyst"
+    >
+
+    <meta name="author" content="Khan Abdul Kalam">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Khan Abdul Kalam — Developer">
+    <meta
+        property="og:description"
+        content="IT Developer • Web Developer • Data-focused problem solver"
+    >
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/profile.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- =====================================
+         PRELOADER
+    ====================================== -->
+
+    <div id="preloader">
+
+        <div class="loader-content">
+
+            <div class="loader-logo">
+                &lt;KAK<span>/&gt;</span>
+            </div>
+
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+
+            <p>INITIALIZING PORTFOLIO...</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================
+         BACKGROUND EFFECTS
+    ====================================== -->
+
+    <canvas id="matrix"></canvas>
+
+    <div class="grid-background"></div>
+
+    <div class="scanlines"></div>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+
+    <!-- =====================================
+         NAVIGATION
+    ====================================== -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <!-- Logo -->
+
+            <a href="#home" class="logo">
+
+                <span>&lt;</span>KAK<span>/&gt;</span>
+
+            </a>
+
+
+            <!-- Status -->
+
+            <div class="availability">
+
+                <span class="status-dot"></span>
+
+                AVAILABLE FOR OPPORTUNITIES
+
+            </div>
+
+
+            <!-- Desktop Navigation -->
+
+            <nav class="nav-menu" id="navMenu">
+
+                <a href="#about">About</a>
+
+                <a href="#skills">Skills</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#experience">Experience</a>
+
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+
+            <!-- Talk Button -->
+
+            <a href="#contact" class="nav-button">
+
+                Let's Talk
+
+                <span>↗</span>
+
+            </a>
+
+
+            <!-- Mobile Menu -->
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                aria-label="Open navigation"
+            >
+
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================
+         MAIN CONTENT
+    ====================================== -->
+
+    <main>
+
+
+        <!-- =================================
+             HERO SECTION
+        ================================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-container">
+
+
+                <!-- LEFT -->
+
+                <div class="hero-content">
+
+                    <div class="terminal-location">
+
+                        <span class="terminal-dot"></span>
+
+                        ~/khan-abdul-kalam
+
+                        <span class="terminal-cursor">_</span>
+
+                    </div>
+
+
+                    <div class="hero-label">
+
+                        IT DEVELOPER
+
+                        <span>×</span>
+
+                        WEB BUILDER
+
+                        <span>×</span>
+
+                        DATA
+
+                    </div>
+
+
+                    <h1>
+
+                        Code.<br>
+
+                        <span>Create.</span><br>
+
+                        Impact.
+
+                    </h1>
+
+
+                    <p class="hero-description">
+
+                        I'm <strong>Khan Abdul Kalam</strong> —
+                        an IT developer who turns ideas into
+                        responsive web experiences, useful products
+                        and clean practical solutions.
+
+                    </p>
+
+
+                    <!-- Buttons -->
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#projects"
+                            class="button button-primary"
+                        >
+
+                            View Projects
+
+                            <span>↗</span>
+
+                        </a>
+
+
+                        <a
+                            href="assets/resume.pdf"
+                            target="_blank"
+                            class="button button-outline"
+                        >
+
+                            Open Resume
+
+                            <span>↓</span>
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- Command Line -->
+
+                    <div class="command-line">
+
+                        <span>~/portfolio</span>
+
+                        <b>→</b>
+
+                        <span id="typingCommand">
+                            build --something-great
+                        </span>
+
+                        <i></i>
+
+                    </div>
+
+
+                    <!-- Social Icons -->
+
+                    <div class="social-links">
+
+                        <!-- GitHub -->
+
+                        <a
+                            href="https://github.com/khan-abdulkalam"
+                            target="_blank"
+                            aria-label="GitHub"
+                        >
+
+                            GH
+
+                        </a>
+
+
+                        <!-- LinkedIn -->
+
+                        <a
+                            href="https://www.linkedin.com/in/khan-abdulkalam"
+                            target="_blank"
+                            aria-label="LinkedIn"
+                        >
+
+                            in
+
+                        </a>
+
+
+                        <!-- X -->
+
+                        <a
+                            href="https://x.com/_KhanAbdulKalam"
+                            target="_blank"
+                            aria-label="X"
+                        >
+
+                            𝕏
+
+                        </a>
+
+
+                        <!-- Medium -->
+
+                        <a
+                            href="https://khanabdulkalam.medium.com"
+                            target="_blank"
+                            aria-label="Medium"
+                        >
+
+                            M
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- RIGHT -->
+
+                <div class="hero-visual">
+
+
+                    <!-- Orbit -->
+
+                    <div class="orbit orbit-one"></div>
+
+                    <div class="orbit orbit-two"></div>
+
+
+                    <!-- Profile -->
+
+                    <div class="profile-card">
+
+                        <div class="profile-top">
+
+                            PROFILE // 001
+
+                        </div>
+
+
+                        <img
+                            src="assets/profile.jpg"
+                            alt="Khan Abdul Kalam"
+                            class="profile-image"
+                        >
+
+
+                        <div class="profile-overlay"></div>
+
+
+                        <div class="profile-bottom">
+
+                            AHMEDABAD / INDIA
+
+                        </div>
+
+
+                        <div class="building-status">
+
+                            <span></span>
+
+                            BUILDING
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Floating Code -->
+
+                    <div class="floating-code code-one">
+
+                        const <strong>ideas</strong> = ship();
+
+                    </div>
+
+
+                    <div class="floating-code code-two">
+
+                        01001011 01000001 01001011
+
+                    </div>
+
+
+                    <!-- Decorative Corners -->
+
+                    <div class="corner corner-one"></div>
+
+                    <div class="corner corner-two"></div>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- Scroll Indicator -->
+
+            <div class="scroll-indicator">
+
+                <span></span>
+
+                SCROLL TO EXPLORE
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             TECH MARQUEE
+        ================================== -->
+
+        <section class="tech-marquee">
+
+            <div class="marquee-track">
+
+                <span>REACT.JS</span>
+                <b>✦</b>
+
+                <span>JAVASCRIPT</span>
+                <b>✦</b>
+
+                <span>NODE.JS</span>
+                <b>✦</b>
+
+                <span>MONGODB</span>
+                <b>✦</b>
+
+                <span>PYTHON</span>
+                <b>✦</b>
+
+                <span>SQL</span>
+                <b>✦</b>
+
+                <span>TAILWIND CSS</span>
+                <b>✦</b>
+
+
+                <!-- Duplicate for animation -->
+
+                <span>REACT.JS</span>
+                <b>✦</b>
+
+                <span>JAVASCRIPT</span>
+                <b>✦</b>
+
+                <span>NODE.JS</span>
+                <b>✦</b>
+
+                <span>MONGODB</span>
+                <b>✦</b>
+
+                <span>PYTHON</span>
+                <b>✦</b>
+
+                <span>SQL</span>
+                <b>✦</b>
+
+                <span>TAILWIND CSS</span>
+                <b>✦</b>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             ABOUT
+        ================================== -->
+
+        <section class="section about-section" id="about">
+
+            <div class="section-number">
+
+                01 / ABOUT
+
+            </div>
+
+
+            <div class="section-heading">
+
+                <span>Who is</span>
+
+                <strong>Khan Abdul Kalam?</strong>
+
+            </div>
+
+
+            <div class="about-grid">
+
+
+                <div class="about-big-text">
+
+                    <span class="quote">“</span>
+
+                    Curious about technology.<br>
+
+                    Obsessed with building.<br>
+
+                    Always learning.
+
+                </div>
+
+
+                <div class="about-text">
+
+                    <p>
+
+                        I'm a technology-focused developer with
+                        a strong interest in web development,
+                        full-stack engineering and data.
+
+                    </p>
+
+
+                    <p>
+
+                        I enjoy taking an idea from a rough concept
+                        to a working interface people can actually use.
+
+                    </p>
+
+
+                    <p>
+
+                        My hands-on work includes React,
+                        JavaScript, Node.js, Express, MongoDB,
+                        Python, SQL, Tailwind CSS and API-based
+                        applications.
+
+                    </p>
+
+
+                    <div class="stats">
+
+                        <div>
+
+                            <strong>10+</strong>
+
+                            <span>REST APIs</span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>4+</strong>
+
+                            <span>PROJECTS</span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>∞</strong>
+
+                            <span>LEARNING</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             SKILLS
+        ================================== -->
+
+        <section class="section skills-section" id="skills">
+
+            <div class="section-number">
+
+                02 / STACK
+
+            </div>
+
+
+            <div class="section-heading">
+
+                <span>My</span>
+
+                <strong>toolbox.</strong>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+
+                <article class="skill-card">
+
+                    <div class="skill-number">01</div>
+
+                    <div class="skill-icon">&lt;/&gt;</div>
+
+                    <h3>Frontend</h3>
+
+                    <p>
+                        Interfaces that feel fast,
+                        responsive and intentional.
+                    </p>
+
+                    <div class="skill-list">
+
+                        React.js · JavaScript · HTML5 ·
+                        CSS3 · Tailwind CSS
+
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <div class="skill-number">02</div>
+
+                    <div class="skill-icon">{ }</div>
+
+                    <h3>Backend</h3>
+
+                    <p>
+                        APIs, authentication and
+                        server-side application logic.
+                    </p>
+
+                    <div class="skill-list">
+
+                        Node.js · Express.js · REST APIs · JWT
+
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <div class="skill-number">03</div>
+
+                    <div class="skill-icon">DB</div>
+
+                    <h3>Data</h3>
+
+                    <p>
+                        Structured data, databases and
+                        analytical thinking.
+                    </p>
+
+                    <div class="skill-list">
+
+                        MongoDB · Mongoose · SQL · Python
+
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <div class="skill-number">04</div>
+
+                    <div class="skill-icon">⌘</div>
+
+                    <h3>Workflow</h3>
+
+                    <p>
+                        Tools and habits that keep
+                        development moving.
+                    </p>
+
+                    <div class="skill-list">
+
+                        Git · GitHub · Postman · Problem Solving
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             PROJECTS
+        ================================== -->
+
+        <section class="section projects-section" id="projects">
+
+            <div class="section-number">
+
+                03 / WORK
+
+            </div>
+
+
+            <div class="section-heading projects-heading">
+
+                <div>
+
+                    <span>Selected</span>
+
+                    <strong>projects.</strong>
+
+                </div>
+
+
+                <a
+                    href="https://github.com/khan-abdulkalam?tab=repositories"
+                    target="_blank"
+                    class="repositories-link"
+                >
+
+                    All repositories ↗
+
+                </a>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <!-- PROJECT 1 -->
+
+                <article class="project-card project-featured">
+
+                    <div class="project-visual navigation-visual">
+
+                        <div class="visual-label">
+
+                            NAVIGATION / ALGORITHM LAB
+
+                        </div>
+
+
+                        <div class="map-grid"></div>
+
+                        <div class="route-line"></div>
+
+
+                        <div class="map-pin pin-a">
+
+                            A
+
+                        </div>
+
+
+                        <div class="map-pin pin-b">
+
+                            B
+
+                        </div>
+
+
+                        <div class="algorithm-text">
+
+                            BFS.findShortestPath(grid)
+
+                        </div>
+
+
+                        <div class="project-poster-title">
+
+                            NAV<br>
+
+                            <span>LAB</span>
+
+                        </div>
+
+
+                        <div class="project-number">
+
+                            001
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <small>
+
+                            JAVASCRIPT / BFS
+
+                        </small>
+
+
+                        <h3>
+
+                            Navigation for Travelers
+
+                        </h3>
+
+
+                        <p>
+
+                            Interactive shortest-path
+                            visualization with obstacles
+                            and a grid-based BFS algorithm.
+
+                        </p>
+
+
+                        <div class="project-bottom">
+
+                            <div class="tags">
+
+                                <span>JavaScript</span>
+
+                                <span>Algorithm</span>
+
+                                <span>UI</span>
+
+                            </div>
+
+
+                            <div class="project-buttons">
+
+                                <a
+                                    href="https://khan-abdulkalam.github.io/Navigation-For-Travelers/"
+                                    target="_blank"
+                                    class="project-button live"
+                                >
+
+                                    Live Demo ↗
+
+                                </a>
+
+
+                                <a
+                                    href="https://github.com/khan-abdulkalam/Navigation-For-Travelers"
+                                    target="_blank"
+                                    class="project-button"
+                                >
+
+                                    Source ↗
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROJECT 2 -->
+
+                <article class="project-card">
+
+                    <div class="project-visual travelo-visual">
+
+                        <div class="visual-label">
+
+                            TRAVEL / EXPERIENCE
+
+                        </div>
+
+
+                        <div class="travelo-title">
+
+                            TRAVELO
+
+                        </div>
+
+
+                        <div class="travel-sun"></div>
+
+                        <div class="travel-mountains"></div>
+
+
+                        <div class="travel-glass">
+
+                            <small>EXPLORE</small>
+
+                            <strong>
+
+                                THE NEXT<br>
+
+                                PLACE.
+
+                            </strong>
+
+                        </div>
+
+
+                        <div class="project-number">
+
+                            002
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <small>
+
+                            HTML / CSS / JAVASCRIPT
+
+                        </small>
+
+
+                        <h3>Travelo</h3>
+
+
+                        <p>
+
+                            Responsive travel experience
+                            with a visual-first interface,
+                            smooth sections and modern styling.
+
+                        </p>
+
+
+                        <div class="project-bottom">
+
+                            <div class="tags">
+
+                                <span>Responsive</span>
+
+                                <span>UI</span>
+
+                            </div>
+
+
+                            <div class="project-buttons">
+
+                                <a
+                                    href="https://khan-abdulkalam.github.io/Travelo/"
+                                    target="_blank"
+                                    class="project-button live"
+                                >
+
+                                    Live Demo ↗
+
+                                </a>
+
+
+                                <a
+                                    href="https://github.com/khan-abdulkalam/Travelo"
+                                    target="_blank"
+                                    class="project-button"
+                                >
+
+                                    Source ↗
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROJECT 3 -->
+
+                <article class="project-card">
+
+                    <div class="project-visual weather-visual">
+
+                        <div class="visual-label">
+
+                            WEATHER / API
+
+                        </div>
+
+
+                        <div class="weather-degree">
+
+                            27°
+
+                        </div>
+
+
+                        <div class="weather-icon">
+
+                            ☁
+
+                        </div>
+
+
+                        <div class="weather-line"></div>
+
+
+                        <div class="project-number">
+
+                            003
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <small>
+
+                            JAVASCRIPT / API
+
+                        </small>
+
+
+                        <h3>Weather App</h3>
+
+
+                        <p>
+
+                            A clean weather interface
+                            built around API data and
+                            responsive presentation.
+
+                        </p>
+
+
+                        <div class="project-bottom">
+
+                            <div class="tags">
+
+                                <span>API</span>
+
+                                <span>JavaScript</span>
+
+                            </div>
+
+
+                            <div class="project-buttons">
+
+                                <a
+                                    href="https://github.com/khan-abdulkalam"
+                                    target="_blank"
+                                    class="project-button"
+                                >
+
+                                    GitHub ↗
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROJECT 4 -->
+
+                <article class="project-card">
+
+                    <div class="project-visual analytics-visual">
+
+                        <div class="visual-label">
+
+                            DATA / DASHBOARD
+
+                        </div>
+
+
+                        <div class="analytics-title">
+
+                            INSIGHTS
+
+                        </div>
+
+
+                        <div class="bars">
+
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+
+                        </div>
+
+
+                        <div class="project-number">
+
+                            004
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <small>
+
+                            DATA / CONCEPT
+
+                        </small>
+
+
+                        <h3>Analytics Dashboard</h3>
+
+
+                        <p>
+
+                            A portfolio concept for turning
+                            operational data into KPI cards,
+                            reports and useful visual insights.
+
+                        </p>
+
+
+                        <div class="project-bottom">
+
+                            <div class="tags">
+
+                                <span>SQL</span>
+
+                                <span>Power BI</span>
+
+                                <span>Excel</span>
+
+                            </div>
+
+
+                            <div class="project-buttons">
+
+                                <a
+                                    href="#contact"
+                                    class="project-button"
+                                >
+
+                                    Discuss ↗
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROJECT 5 -->
+
+                <article class="project-card">
+
+                    <div class="project-visual ats-visual">
+
+                        <div class="visual-label">
+
+                            HR TECH / WORKFLOW
+
+                        </div>
+
+
+                        <div class="ats-title">
+
+                            ATS
+
+                        </div>
+
+
+                        <div class="scan-line"></div>
+
+
+                        <div class="document-lines">
+
+                            <i></i>
+                            <i></i>
+                            <i></i>
+
+                        </div>
+
+
+                        <div class="project-number">
+
+                            005
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <small>
+
+                            HR TECH / CONCEPT
+
+                        </small>
+
+
+                        <h3>Smart ATS Workspace</h3>
+
+
+                        <p>
+
+                            Recruitment workflow concept
+                            for candidate profiles, resume
+                            screening and hiring status tracking.
+
+                        </p>
+
+
+                        <div class="project-bottom">
+
+                            <div class="tags">
+
+                                <span>HR Tech</span>
+
+                                <span>Workflow</span>
+
+                            </div>
+
+
+                            <div class="project-buttons">
+
+                                <a
+                                    href="#contact"
+                                    class="project-button"
+                                >
+
+                                    Discuss ↗
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROJECT 6 -->
+
+                <article class="project-card">
+
+                    <div class="project-visual api-visual">
+
+                        <div class="visual-label">
+
+                            BACKEND / ARCHITECTURE
+
+                        </div>
+
+
+                        <div class="api-title">
+
+                            API
+
+                        </div>
+
+
+                        <div class="api-node node-one"></div>
+
+                        <div class="api-node node-two"></div>
+
+                        <div class="api-node node-three"></div>
+
+
+                        <div class="api-connection connection-one"></div>
+
+                        <div class="api-connection connection-two"></div>
+
+
+                        <div class="project-number">
+
+                            006
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <small>
+
+                            FULL STACK / CONCEPT
+
+                        </small>
+
+
+                        <h3>Secure REST Platform</h3>
+
+
+                        <p>
+
+                            Full-stack architecture concept
+                            combining JWT authentication,
+                            REST APIs and MongoDB.
+
+                        </p>
+
+
+                        <div class="project-bottom">
+
+                            <div class="tags">
+
+                                <span>Node</span>
+
+                                <span>Express</span>
+
+                                <span>MongoDB</span>
+
+                            </div>
+
+
+                            <div class="project-buttons">
+
+                                <a
+                                    href="https://github.com/khan-abdulkalam"
+                                    target="_blank"
+                                    class="project-button"
+                                >
+
+                                    GitHub ↗
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             EXPERIENCE
+        ================================== -->
+
+        <section
+            class="section experience-section"
+            id="experience"
+        >
+
+            <div class="section-number">
+
+                04 / JOURNEY
+
+            </div>
+
+
+            <div class="section-heading">
+
+                <span>Experience &</span>
+
+                <strong>education.</strong>
+
+            </div>
+
+
+            <div class="timeline">
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-date">
+
+                        2023 — PRESENT
+
+                    </div>
+
+
+                    <div class="timeline-content">
+
+                        <small>
+
+                            INDEPENDENT PROJECTS
+
+                        </small>
+
+
+                        <h3>
+
+                            Full-Stack Developer
+
+                        </h3>
+
+
+                        <p>
+
+                            Building practical web applications,
+                            APIs and responsive digital products
+                            through self-led development.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-date">
+
+                        TRAINING
+
+                    </div>
+
+
+                    <div class="timeline-content">
+
+                        <small>
+
+                            BRAINYBEAM INFO-TECH PVT. LTD.
+
+                        </small>
+
+
+                        <h3>
+
+                            Python with Django Internship Program
+
+                        </h3>
+
+
+                        <p>
+
+                            Hands-on exposure to Python
+                            and Django development workflows.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-date">
+
+                        EDUCATION
+
+                    </div>
+
+
+                    <div class="timeline-content">
+
+                        <small>
+
+                            SILVER OAK UNIVERSITY
+
+                        </small>
+
+
+                        <h3>
+
+                            B.Tech in Information Technology
+
+                        </h3>
+
+
+                        <p>
+
+                            Technology-focused education with
+                            practical project development and
+                            continuous upskilling.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Certifications -->
+
+            <div class="certificates">
+
+                <div>
+
+                    AI Tools & ChatGPT Workshop
+
+                    <span>be10x</span>
+
+                </div>
+
+
+                <div>
+
+                    Digital Marketing Fundamentals
+
+                    <span>IIDE</span>
+
+                </div>
+
+
+                <div>
+
+                    IT Career Roadmap
+
+                    <span>SkillEcted</span>
+
+                </div>
+
+
+                <div>
+
+                    Tech Verse
+
+                    <span>Certificate</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             CONTACT
+        ================================== -->
+
+        <section
+            class="section contact-section"
+            id="contact"
+        >
+
+            <div class="contact-terminal">
+
+
+                <!-- Terminal Header -->
+
+                <div class="terminal-header">
+
+                    <div class="terminal-buttons">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+
+                    <strong>
+
+                        contact.sh
+
+                    </strong>
+
+
+                    <small>
+
+                        ● ONLINE
+
+                    </small>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+
+                    <!-- Contact Text -->
+
+                    <div class="contact-information">
+
+                        <div class="terminal-command">
+
+                            $ ./start-conversation
+
+                        </div>
+
+
+                        <h2>
+
+                            Let's make<br>
+
+                            <span>something real.</span>
+
+                        </h2>
+
+
+                        <p>
+
+                            Got a project, opportunity or idea?
+
+                            Drop a message and I'll get back
+                            to you by email.
+
+                        </p>
+
+
+                        <!-- Gmail -->
+
+                        <a
+                            href="mailto:abdul.kalamkhan3001@gmail.com"
+                            class="contact-method"
+                        >
+
+                            <span class="contact-method-icon">
+
+                                ✉
+
+                            </span>
+
+
+                            <div>
+
+                                <small>EMAIL</small>
+
+                                <strong>Send me an email</strong>
+
+                            </div>
+
+
+                            <b>↗</b>
+
+                        </a>
+
+
+                        <!-- Telegram -->
+
+                        <a
+                            href="https://t.me/khan_abdulkalam"
+                            target="_blank"
+                            class="contact-method"
+                        >
+
+                            <span class="contact-method-icon">
+
+                                ➤
+
+                            </span>
+
+
+                            <div>
+
+                                <small>TELEGRAM</small>
+
+                                <strong>Message on Telegram</strong>
+
+                            </div>
+
+
+                            <b>↗</b>
+
+                        </a>
+
+                    </div>
+
+
+
+                    <!-- Contact Form -->
+
+                    <form
+                        id="contactForm"
+                        action="https://formsubmit.co/abdul.kalamkhan3001@gmail.com"
+                        method="POST"
+                    >
+
+                        <input
+                            type="hidden"
+                            name="_subject"
+                            value="New message from Khan Abdul Kalam Portfolio"
+                        >
+
+
+                        <input
+                            type="hidden"
+                            name="_captcha"
+                            value="true"
+                        >
+
+
+                        <input
+                            type="hidden"
+                            name="_template"
+                            value="table"
+                        >
+
+
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="YOUR NAME"
+                            required
+                        >
+
+
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="YOUR EMAIL"
+                            required
+                        >
+
+
+                        <textarea
+                            name="message"
+                            rows="6"
+                            placeholder="WRITE YOUR MESSAGE..."
+                            required
+                        ></textarea>
+
+
+                        <button
+                            type="submit"
+                            class="button button-primary send-button"
+                        >
+
+                            SEND MESSAGE
+
+                            <span>↗</span>
+
+                        </button>
+
+
+                        <small class="form-note">
+
+                            Your message will be sent to my email.
+
+                        </small>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================
+         FOOTER
+    ====================================== -->
+
+    <footer>
+
+        <div class="footer-left">
+
+            <a href="#home" class="logo">
+
+                <span>&lt;</span>KAK<span>/&gt;</span>
+
+            </a>
+
+
+            <small>
+
+                © <span id="year"></span>
+                KHAN ABDUL KALAM
+
+            </small>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a
+                href="https://github.com/khan-abdulkalam"
+                target="_blank"
+            >
+
+                GH
+
+            </a>
+
+
+            <a
+                href="https://www.linkedin.com/in/khan-abdulkalam"
+                target="_blank"
+            >
+
+                in
+
+            </a>
+
+
+            <a
+                href="https://x.com/_KhanAbdulKalam"
+                target="_blank"
+            >
+
+                𝕏
+
+            </a>
+
+
+            <a
+                href="https://www.youtube.com/@khan_abdulkalam"
+                target="_blank"
+            >
+
+                ▶
+
+            </a>
+
+
+            <a
+                href="https://t.me/khan_abdulkalam"
+                target="_blank"
+            >
+
+                ➤
+
+            </a>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- Floating Contact -->
+
+    <button
+        class="floating-contact"
+        id="floatingContact"
+        aria-label="Open contact section"
+    >
+
+        ✦
+
+    </button>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
